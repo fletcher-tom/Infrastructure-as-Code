@@ -18,3 +18,6 @@ variable "web_servers" {
     "ansible-web-server-3"
   ]
 }
+variable "key_name" {
+  default = "tom-key-pair-london"
+}

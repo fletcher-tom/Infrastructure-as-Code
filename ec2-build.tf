@@ -18,6 +18,7 @@ resource "aws_instance" "ansible-control-server" {
   tags = {
     Name = "ansible-control"
   }
+  key_name = var.key_name
 }
 
 resource "aws_instance" "ansible-web-servers" {
@@ -27,4 +28,5 @@ resource "aws_instance" "ansible-web-servers" {
   tags = {
     Name = element(var.web_servers, count.index)
   }
+  key_name = var.key_name
 }
