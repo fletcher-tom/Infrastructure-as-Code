@@ -19,5 +19,5 @@ variable "web_servers" {
   ]
 }
 variable "key_name" {
-  default = "tom-key-pair-london"
+  default = "tf-22102020"
 }
