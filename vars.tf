@@ -2,6 +2,10 @@ variable "region" {
   default = "eu-west-2"
 }
 
+variable "control_ami" {
+  default = "ami-037b40f81b6a9f3ee"
+}
+
 variable "ami" {
   default = "ami-05c424d59413a2876"
 }

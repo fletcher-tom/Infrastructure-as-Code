@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "ansible-control-server" {
-  ami           = var.ami
+  ami           = var.control_ami
   instance_type = var.instance_type
   tags = {
     Name = "ansible-control"
