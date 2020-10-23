@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "control_ami" {
-  default = "ami-06053017c09c09a38"
+  default = "ami-0fd7c2d55c1d4c92f"
 }
 
 variable "ami" {
